@@ -2,8 +2,11 @@ import React from 'react';
 
 // Functional Component without state
 function FunctionalComponentWithoutState(props) {
+  // Overview of the props
+  const {name} = props
+
   return (
-    <div>{props.name}</div>
+    <div>{name}</div>
   );
 }
 
